@@ -59,7 +59,7 @@ This script is used to make predictions on new images using the trained model.
 #### Example Usage:
 To generate predictions for a test image:
 ```bash
-python predict.py --image /path/to/test/image.png
+python predict.py --image /path/to/test/image.jpg
 ```
 
 The script will load the `best_model.pt` file and use it to predict the result for the provided test image.
