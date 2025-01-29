@@ -40,4 +40,4 @@ with torch.no_grad():
     plt.title('Reconstructed color image',fontweight='bold')
     plt.imshow(colored_recon.squeeze(0).permute(1,2,0))
     plt.tight_layout()
-    plt.savefig(f'result_{args.image}.jpg',dpi=200)
+    plt.savefig(f'result.jpg',dpi=200)
