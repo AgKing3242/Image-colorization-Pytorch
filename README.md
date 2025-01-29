@@ -64,10 +64,5 @@ python predict.py --image /path/to/test/image.png
 
 The script will load the `best_model.pt` file and use it to predict the result for the provided test image.
 
-## Conclusion
 
-- `train_cpu.py` and `train_gpu.py` are used for training the model.
-- `predict.py` is used to generate predictions on test images.
-- After training, the best model weights are saved in `best_model.pt`.
-
-Feel free to modify the arguments and scripts as needed for your specific use case!
+## Feel free to modify the arguments and scripts as needed for your specific use case!
