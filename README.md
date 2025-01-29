@@ -1,5 +1,3 @@
-Here’s the full README in Markdown format:
-
 # Model Training and Prediction
 
 This repository contains two training scripts, `train_cpu.py` and `train_gpu.py`, that allow you to train the model either on the CPU or GPU. Both scripts accept the same set of command-line arguments to control the training process. Additionally, there is a script `predict.py` that takes a test image and generates predictions based on the trained model.
