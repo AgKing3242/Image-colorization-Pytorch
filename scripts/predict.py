@@ -12,9 +12,9 @@ args = parser.parse_args()
 model = AutoEncoder(n_channels=1)
 
 if torch.cuda.is_available():
-	state_dict = torch.load('best_model.pt',weights_only=True)
+ state_dict = torch.load('best_model.pt',weights_only=True)
 else:
-	state_dict = torch.load('best_model.pt',map_location=torch.device('cpu'),weights_only=True)
+ state_dict = torch.load('best_model.pt',map_location=torch.device('cpu'),weights_only=True)
 model.load_state_dict(state_dict)
 model.eval()
 
